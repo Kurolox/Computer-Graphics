@@ -7,4 +7,4 @@
 - [Elton Glenvill Pinto](https://github.com/eltonpinto156)
 - [Mihir Vipradas](https://github.com/mihdas)
 - [Naman Mittal](https://github.com/palindrome1311)
-
+- [Carlos Gomez](https://github.com/kurolox)
