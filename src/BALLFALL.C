@@ -75,15 +75,11 @@ void finalTitle()
 void drawFullTitle()
 {
     int y = halfy - 100;
-    drawNextLetter(200, y, "B");
-    drawNextLetter(230, y, "A");
-    drawNextLetter(257, y, "L");
-    drawNextLetter(280, y, "L");
-    drawNextLetter(310, y, " ");
-    drawNextLetter(325, y, "F");
-    drawNextLetter(360, y, "A");
-    drawNextLetter(380, y, "L");
-    drawNextLetter(410, y, "L");
+    int pos[9] = [200,230,257,280,310,325,360,380,410]
+
+    for(i = 0; i < 9; i++){
+        drawNextLetter(pos[i], y, title[i]);
+    }
     finalTitle();
 }
 
