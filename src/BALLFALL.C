@@ -75,9 +75,9 @@ void finalTitle()
 void drawFullTitle()
 {
     int y = halfy - 100;
-    int pos[9] = [200,230,257,280,310,325,360,380,410]
+    int pos[9] = {200, 230, 257, 280, 310, 325, 360, 380, 410};
 
-    for(i = 0; i < 9; i++){
+    for(int i = 0; i < 9; i++){
         drawNextLetter(pos[i], y, title[i]);
     }
     finalTitle();
